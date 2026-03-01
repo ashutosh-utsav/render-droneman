@@ -1,0 +1,7 @@
+services:
+  pocketbase:
+    build: .
+    ports:
+      - "127.0.0.1:58080:8080"
+    volumes:
+      - ./pb_data:/pb/pb_data
